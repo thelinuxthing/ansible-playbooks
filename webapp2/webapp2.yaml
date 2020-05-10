@@ -1,0 +1,4 @@
+- hosts: webapp2
+  tasks:
+    - name: Ping weball2
+      ping:
