@@ -1,4 +1,8 @@
-- hosts: webapp2
+- hosts: all
   tasks:
     - name: Ping weball2
       ping:
+      
+    - name: debug
+      debug:
+        msg: Playing {{ purpose }}
