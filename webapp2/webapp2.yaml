@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
-    - name: Ping weball2
+    - name: Ping all
       ping:
       
     - name: debug
